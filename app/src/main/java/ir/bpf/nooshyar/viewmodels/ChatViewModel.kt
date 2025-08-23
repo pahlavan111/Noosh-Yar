@@ -1,12 +1,12 @@
-package ir.bpf.beerstore.viewmodels
+package ir.bpf.nooshyar.viewmodels
 
 import androidx.compose.runtime.mutableStateOf
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import dagger.hilt.android.lifecycle.HiltViewModel
-import ir.bpf.beerstore.mapper.toDomain
-import ir.bpf.beerstore.mapper.toMessageModel
-import ir.bpf.beerstore.models.MessageModel
+import ir.bpf.nooshyar.mapper.toDomain
+import ir.bpf.nooshyar.mapper.toMessageModel
+import ir.bpf.nooshyar.models.MessageModel
 import ir.bpf.domain.usecase.ChatUseCase
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow

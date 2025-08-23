@@ -1,4 +1,4 @@
-package ir.bpf.beerstore.ui.theme
+package ir.bpf.nooshyar.ui.theme
 
 import android.os.Build
 import androidx.compose.foundation.isSystemInDarkTheme

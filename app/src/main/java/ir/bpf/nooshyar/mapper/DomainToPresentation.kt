@@ -1,7 +1,7 @@
-package ir.bpf.beerstore.mapper
+package ir.bpf.nooshyar.mapper
 
 import ir.bpf.domain.model.Message
-import ir.bpf.beerstore.models.MessageModel
+import ir.bpf.nooshyar.models.MessageModel
 
 fun Message.toMessageModel(): MessageModel {
     return MessageModel(

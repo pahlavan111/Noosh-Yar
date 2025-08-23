@@ -1,4 +1,4 @@
-package ir.bpf.beerstore.models
+package ir.bpf.nooshyar.models
 
 data class MessageModel(
     val id: Int? = null,

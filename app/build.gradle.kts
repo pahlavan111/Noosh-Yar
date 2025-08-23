@@ -8,7 +8,7 @@ plugins {
 }
 
 android {
-    namespace = "ir.bpf.beerstore"
+    namespace = "ir.bpf.nooshyar"
     compileSdk = libs.versions.compileSdk.get().toInt()
 
     defaultConfig {

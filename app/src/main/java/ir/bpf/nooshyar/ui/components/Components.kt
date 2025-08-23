@@ -1,4 +1,4 @@
-package ir.bpf.beerstore.ui.components
+package ir.bpf.nooshyar.ui.components
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.*
@@ -10,7 +10,7 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.dp
-import ir.bpf.beerstore.models.MessageModel
+import ir.bpf.nooshyar.models.MessageModel
 import java.text.SimpleDateFormat
 import java.util.*
 

@@ -1,4 +1,4 @@
-package ir.bpf.beerstore
+package ir.bpf.nooshyar
 
 import android.app.Application
 import dagger.hilt.android.HiltAndroidApp

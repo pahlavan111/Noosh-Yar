@@ -1,4 +1,4 @@
-package ir.bpf.beerstore.ui.screens
+package ir.bpf.nooshyar.ui.screens
 
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
@@ -10,8 +10,8 @@ import androidx.compose.runtime.getValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
-import ir.bpf.beerstore.ui.components.MessageItem
-import ir.bpf.beerstore.viewmodels.ChatViewModel
+import ir.bpf.nooshyar.ui.components.MessageItem
+import ir.bpf.nooshyar.viewmodels.ChatViewModel
 
 
 @Composable

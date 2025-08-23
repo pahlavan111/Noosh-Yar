@@ -23,7 +23,7 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Beer Store"
+rootProject.name = "Nosh Yar"
 include(":app")
 include(":domain")
 include(":data")

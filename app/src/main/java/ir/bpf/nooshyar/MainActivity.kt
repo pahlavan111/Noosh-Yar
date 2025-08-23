@@ -1,4 +1,4 @@
-package ir.bpf.beerstore
+package ir.bpf.nooshyar
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -8,9 +8,9 @@ import androidx.activity.viewModels
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.tooling.preview.Preview
 import dagger.hilt.android.AndroidEntryPoint
-import ir.bpf.beerstore.ui.screens.ChatScreen
-import ir.bpf.beerstore.ui.theme.ChatterBoxTheme
-import ir.bpf.beerstore.viewmodels.ChatViewModel
+import ir.bpf.nooshyar.ui.screens.ChatScreen
+import ir.bpf.nooshyar.ui.theme.ChatterBoxTheme
+import ir.bpf.nooshyar.viewmodels.ChatViewModel
 import kotlin.getValue
 
 @AndroidEntryPoint

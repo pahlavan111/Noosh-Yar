@@ -1,4 +1,4 @@
-package ir.bpf.beerstore
+package ir.bpf.nooshyar
 
 import org.junit.Test
 

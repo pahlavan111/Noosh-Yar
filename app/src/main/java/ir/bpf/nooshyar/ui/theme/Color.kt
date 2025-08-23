@@ -1,4 +1,4 @@
-package ir.bpf.beerstore.ui.theme
+package ir.bpf.nooshyar.ui.theme
 
 import androidx.compose.ui.graphics.Color
 
