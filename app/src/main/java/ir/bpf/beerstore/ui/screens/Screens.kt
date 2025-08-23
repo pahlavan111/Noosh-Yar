@@ -24,7 +24,7 @@ fun ChatScreen(viewModel: ChatViewModel) {
         LazyColumn(
             modifier = Modifier
                 .weight(1f)
-                .padding(top = 16.dp, start = 8.dp, end = 8.dp),
+                .padding(top = 32.dp, start = 8.dp, end = 8.dp),
             reverseLayout = false
         ) {
             items(messages) { message ->
@@ -36,7 +36,7 @@ fun ChatScreen(viewModel: ChatViewModel) {
         Row(
             modifier = Modifier
                 .fillMaxWidth()
-                .padding(8.dp),
+                .padding(top = 8.dp, start = 8.dp, end = 8.dp, bottom = 64.dp),
             verticalAlignment = Alignment.CenterVertically
         ) {
             OutlinedTextField(
