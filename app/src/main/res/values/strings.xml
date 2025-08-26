@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Beer Store</string>
+    <string name="send">ارسال</string>
+    <string name="enter_your_message">پیام خود را بنویسید</string>
 </resources>

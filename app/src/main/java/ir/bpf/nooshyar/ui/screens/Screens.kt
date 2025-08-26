@@ -9,7 +9,9 @@ import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
+import ir.bpf.nooshyar.R
 import ir.bpf.nooshyar.ui.components.MessageItem
 import ir.bpf.nooshyar.viewmodels.ChatViewModel
 
@@ -43,11 +45,11 @@ fun ChatScreen(viewModel: ChatViewModel) {
                 value = messageInput,
                 onValueChange = { viewModel.messageInput.value = it },
                 modifier = Modifier.weight(1f),
-                label = { Text("پیام خود را بنویسید") }
+                label = { Text(stringResource(R.string.enter_your_message)) }
             )
             Spacer(modifier = Modifier.width(8.dp))
             Button(onClick = { viewModel.sendMessage() }) {
-                Text("ارسال")
+                Text(stringResource(R.string.send))
             }
         }
     }
